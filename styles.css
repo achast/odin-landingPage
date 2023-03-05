@@ -61,3 +61,35 @@ button {
     align-self: flex-start;
     padding: 8px 16px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 800;
+    color: black;
+    margin: 24px 0;
+}
+
+.container {
+    display: flex;
+    gap: 28px;
+
+}
+
+.info {
+    max-width: 200px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+}
+
+
